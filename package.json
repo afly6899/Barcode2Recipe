@@ -1,0 +1,19 @@
+{
+  "name": "barcode2recipe",
+  "version": "1.0.0",
+  "description": "BostonHack2018 Project.  \r Our goal is to make an app that can scan ingredient barcodes and then give recipes that use those ingredients!\r We're first-time hackers and we're very excited to be here!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afly6899/Barcode2Recipe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afly6899/Barcode2Recipe/issues"
+  },
+  "homepage": "https://github.com/afly6899/Barcode2Recipe#readme"
+}
