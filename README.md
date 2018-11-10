@@ -9,3 +9,10 @@ We're first-time hackers and we're very excited to be here!
 * Becca Malcom
 * Funing Yang
 * Yaxin Liu
+
+Setup
+```
+npm i -g expo-cli
+npm i
+expo start
+```
