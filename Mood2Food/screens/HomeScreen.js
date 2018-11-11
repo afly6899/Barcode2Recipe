@@ -75,6 +75,8 @@ export default class HomeScreen extends React.Component {
                 borderWidth: 0,
                 borderRadius: 5
               }}
+              onPress={() => this.props.navigation.navigate('Links',
+                                                             {input_mood: 'sad'})}
               />
           </View>
 
@@ -90,6 +92,8 @@ export default class HomeScreen extends React.Component {
                 borderWidth: 0,
                 borderRadius: 5
               }}
+              onPress={() => this.props.navigation.navigate('Links',
+                                                             {input_mood: 'calm'})}
                />
           </View>
 
@@ -105,6 +109,8 @@ export default class HomeScreen extends React.Component {
                 borderWidth: 0,
                 borderRadius: 5
               }}
+              onPress={() => this.props.navigation.navigate('Links',
+                                                             {input_mood: 'excited'})}
               />
           </View>
 
@@ -120,6 +126,8 @@ export default class HomeScreen extends React.Component {
                 borderWidth: 0,
                 borderRadius: 5
               }}
+              onPress={() => this.props.navigation.navigate('Links',
+                                                             {input_mood: 'stressed'})}
               />
           </View>
 
@@ -135,6 +143,8 @@ export default class HomeScreen extends React.Component {
                 borderWidth: 0,
                 borderRadius: 5
               }}
+              onPress={() => this.props.navigation.navigate('Links',
+                                                             {input_mood: 'romantic'})}
               />
           </View>
 
@@ -150,6 +160,8 @@ export default class HomeScreen extends React.Component {
                 borderWidth: 0,
                 borderRadius: 5
               }}
+              onPress={() => this.props.navigation.navigate('Links',
+                                                             {input_mood: 'angry'})}
               />
           </View>
 
@@ -165,6 +177,8 @@ export default class HomeScreen extends React.Component {
                 borderWidth: 0,
                 borderRadius: 5
               }}
+              onPress={() => this.props.navigation.navigate('Links',
+                                                             {input_mood: 'focused'})}
               />
           </View>
 
@@ -180,6 +194,8 @@ export default class HomeScreen extends React.Component {
                 borderWidth: 0,
                 borderRadius: 5
               }}
+              onPress={() => this.props.navigation.navigate('Links',
+                                                             {input_mood: 'frightened'})}
               />
           </View>
 
