@@ -1,7 +1,7 @@
 import React from 'react';
 import { ScrollView, View, Text, StyleSheet } from 'react-native';
 import { Bulky, Chocolate, Meat, Combinations, Others, ProteinVitamin, Salty,
-  Starch, Sugar, Sweet, Tough, Others2 } from '../components/Recipes';
+  Soft , Starch, Others2, Sweet, Crunchy, Tough, Sugar } from '../components/Recipes';
 
 export default class MoodScreen extends React.Component {
   static navigationOptions = {
@@ -10,7 +10,7 @@ export default class MoodScreen extends React.Component {
 
   render() {
     const {navigation} = this.props;
-    const input_mood = navigation.getParam('input_mood', 'None nada apathetic');
+    const input_mood = navigation.getParam('input_mood', "I don't know!");
 
     return (
       input_mood,
@@ -22,20 +22,39 @@ export default class MoodScreen extends React.Component {
           <Text style={styles.titleText}> {input_mood} </Text>
           <Text style={styles.baseText}> ~ Bon Appetit ~ </Text>
         </View>
-        <RenderRecipes>{input_mood}</RenderRecipes>
+        <RenderRecipes m={input_mood}></RenderRecipes>
       </ScrollView>
     );
   }
 
 }
 
-const RenderRecipes = (m) => {
+const RenderRecipes = ({m}) => {
   var mood = m;
 
   switch(mood) {
     case 'sad': return (<Meat></Meat>);
     break;
     case 'happy': return (<Bulky></Bulky>);
+    break;
+    case 'calm': return (<Bulky></Bulky>);
+    break;
+    case 'excited': return (<Bulky></Bulky>);
+    break;
+    case 'stressed': return (<Bulky></Bulky>);
+    break;
+    case 'romantic': return (<Bulky></Bulky>);
+    break;
+    case 'angry': return (
+      <React.Fragment>
+        <Meat></Meat>,
+        <Tough></Tough>,
+        <Crunchy></Crunchy>
+      </React.Fragment>);
+    break;
+    case 'focused': return (<Bulky></Bulky>);
+    break;
+    case 'frightened': return (<Bulky></Bulky>);
     break;
     default: return(<Text style={styles.errorText}>No Recipes!</Text>);
   }
@@ -46,7 +65,7 @@ export const SetColor = (m) => {
 
   var color;
   switch(mood) {
-    case 'happy': color = 'rgb(255,255,0)';
+    case 'happy': color = 'rgb(255,232,2)';
     break;
     case 'sad': color = 'rgb(-100,149,237)';
     break;
@@ -60,9 +79,9 @@ export const SetColor = (m) => {
     break;
     case 'angry': color = 'rgb(139,0,0)';
     break;
-    case 'focused': color = 'rgb(-100,149,237)';
+    case 'focused': color = '#00008b';
     break;
-    case 'frightened': color = 'rgb(255,255,0)';
+    case 'frightened': color = '#e9967a';
     break;
     default: color = 'white';
   }
