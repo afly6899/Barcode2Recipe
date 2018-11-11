@@ -4,7 +4,8 @@ import {
   StyleSheet,
   Text,
   View,
-  Image
+  Image,
+  Linking
 } from 'react-native';
 
 export class Chocolate extends Component{
