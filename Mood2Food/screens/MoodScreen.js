@@ -9,13 +9,17 @@ export default class MoodScreen extends React.Component {
   };
 
   render() {
+    const {navigation} = this.props;
+    const input_mood = navigation.getParam('input_mood', 'None nada apathetic');
+
     return (
+      input_mood,
       <ScrollView style={styles.container}>
         <View style={{
           alignItems: 'stretch',
         }}>
           <Text style={styles.baseText}> You are feeling... </Text>
-          <Text style={styles.titleText}> happy </Text>
+          <Text style={styles.titleText}> {input_mood} </Text>
           <Text style={styles.baseText}> ~ Bon Appetit ~ </Text>
         </View>
         <RenderRecipes></RenderRecipes>
@@ -38,13 +42,7 @@ const RenderRecipes = () => {
 }
 
 export const SetColor = (m) => {
-  var mood;
-  if(m == undefined) {
-    mood = 'sad';
-  }
-  if (m !== undefined) {
-    mood = 'happy';
-  }
+  var mood = m;
 
   var color;
   switch(mood) {

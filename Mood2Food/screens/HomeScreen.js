@@ -58,7 +58,8 @@ export default class HomeScreen extends React.Component {
                 borderWidth: 0,
                 borderRadius: 5
               }}
-              onPress={() => this.props.navigation.navigate('Links')}
+              onPress={() => this.props.navigation.navigate('Links',
+                                                             {input_mood: 'happy'})}
               />
           </View>
 
