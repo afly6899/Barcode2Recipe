@@ -7,17 +7,26 @@ import {
   Text,
   TouchableOpacity,
   View,
+  Alert,
 } from 'react-native';
 import { WebBrowser } from 'expo';
+import { Button, ButtonGroup } from 'react-native-elements';
+import { SetColor } from './MoodScreen';
 
-import { MonoText } from '../components/StyledText';
+import { MonoText, MighText } from '../components/StyledText';
 
 export default class HomeScreen extends React.Component {
   static navigationOptions = {
     header: null,
   };
 
+  onPress (mood) {
+    Alert.alert(mood)
+    SetColor('happy')
+  }
+
   render() {
+    const buttons = ['Hello', 'World', 'Buttons']
     return (
       <View style={styles.container}>
         <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
@@ -30,6 +39,150 @@ export default class HomeScreen extends React.Component {
               }
               style={styles.welcomeImage}
             />
+          </View>
+          <View style={styles.logoContainer}>
+            <MighText style={styles.logoText}> Mood2Food </MighText>
+          </View>
+
+          <View style={styles.buttonStyleContainer}>
+            <Button
+              raised
+              title='HAPPY'
+              buttonStyle={{
+                backgroundColor: "rgba(92, 99,216, 1)",
+                width: 300,
+                height: 70,
+                borderColor: "transparent",
+                borderWidth: 0,
+                borderRadius: 5
+              }}
+              onPress={() => this.onPress('happy')}
+              />
+          </View>
+
+          <View style={styles.buttonStyleContainer}>
+            <Button
+              raised
+              title='SAD'
+              buttonStyle={{
+                backgroundColor: "rgba(92, 99,216, 1)",
+                width: 300,
+                height: 70,
+                borderColor: "transparent",
+                borderWidth: 0,
+                borderRadius: 5
+              }}
+              />
+          </View>
+
+          <View style={styles.buttonStyleContainer}>
+            <Button
+              raised
+              title='CALM'
+              buttonStyle={{
+                backgroundColor: "rgba(92, 99,216, 1)",
+                width: 300,
+                height: 70,
+                borderColor: "transparent",
+                borderWidth: 0,
+                borderRadius: 5
+              }}
+               />
+          </View>
+
+          <View style={styles.buttonStyleContainer}>
+            <Button
+              raised
+              title='EXCITED'
+              buttonStyle={{
+                backgroundColor: "rgba(92, 99,216, 1)",
+                width: 300,
+                height: 70,
+                borderColor: "transparent",
+                borderWidth: 0,
+                borderRadius: 5
+              }}
+              />
+          </View>
+
+          <View style={styles.buttonStyleContainer}>
+            <Button
+              raised
+              title='STRESSED'
+              buttonStyle={{
+                backgroundColor: "rgba(92, 99,216, 1)",
+                width: 300,
+                height: 70,
+                borderColor: "transparent",
+                borderWidth: 0,
+                borderRadius: 5
+              }}
+              />
+          </View>
+
+          <View style={styles.buttonStyleContainer}>
+            <Button
+              raised
+              title='ROMANTIC'
+              buttonStyle={{
+                backgroundColor: "rgba(92, 99,216, 1)",
+                width: 300,
+                height: 70,
+                borderColor: "transparent",
+                borderWidth: 0,
+                borderRadius: 5
+              }}
+              />
+          </View>
+
+          <View style={styles.buttonStyleContainer}>
+            <Button
+              raised
+              title='ANGRY'
+              buttonStyle={{
+                backgroundColor: "rgba(92, 99,216, 1)",
+                width: 300,
+                height: 70,
+                borderColor: "transparent",
+                borderWidth: 0,
+                borderRadius: 5
+              }}
+              />
+          </View>
+
+          <View style={styles.buttonStyleContainer}>
+            <Button
+              raised
+              title='FOCUSED'
+              buttonStyle={{
+                backgroundColor: "rgba(92, 99,216, 1)",
+                width: 300,
+                height: 70,
+                borderColor: "transparent",
+                borderWidth: 0,
+                borderRadius: 5
+              }}
+              />
+          </View>
+
+          <View style={styles.buttonStyleContainer}>
+            <Button
+              raised
+              title='FRIGHTENED'
+              buttonStyle={{
+                backgroundColor: "rgba(92, 99,216, 1)",
+                width: 300,
+                height: 70,
+                borderColor: "transparent",
+                borderWidth: 0,
+                borderRadius: 5
+              }}
+              />
+          </View>
+
+          <View style={styles.buttonGroupContainer}>
+            <ButtonGroup
+              buttons = {buttons}/>
           </View>
 
           <View style={styles.getStartedContainer}>
@@ -101,7 +254,31 @@ export default class HomeScreen extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#ffb6c1',
+  },
+  logoContainer: {
+    marginTop: 10,
+    marginBottom:20,
+    alignItems: 'center',
+  },
+  logoText: {
+    fontSize: 70,
+    textAlign: 'center',
+    color: 'rgba(0,0,0,0.4)',
+  },
+  buttonStyleContainer: {
+    flex: 1,
+    flexDirection: 'column',
+    alignItems: 'center',
+    borderColor: '#f39c12',
+    backgroundColor: "transparent",
+    justifyContent: 'space-between',
+    paddingTop: 10
+  },
+  buttonGroupContainer: {
+    flex: 1,
+    flexDirection: 'column',
+    alignItems: 'center',
   },
   developmentModeText: {
     marginBottom: 20,
