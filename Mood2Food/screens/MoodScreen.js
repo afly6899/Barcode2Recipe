@@ -37,8 +37,8 @@ const RenderRecipes = () => {
   }
 }
 
-export const SetColor = () => {
-  var mood = 'sad';
+export const SetColor = (String m) => {
+  var mood = m;
   var color;
 
   switch(mood) {
