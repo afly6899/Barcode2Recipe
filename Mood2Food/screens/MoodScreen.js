@@ -18,12 +18,23 @@ export default class MoodScreen extends React.Component {
           <Text style={styles.titleText}> happy </Text>
           <Text style={styles.baseText}> ~ Bon Appetit ~ </Text>
         </View>
-        <Bulky> </Bulky>
-        <Chocolate> </Chocolate>
+        <RenderRecipes></RenderRecipes>
       </ScrollView>
     );
   }
 
+}
+
+const RenderRecipes = () => {
+  var mood = 's';
+
+  switch(mood) {
+    case 'sad': return (<Meat></Meat>);
+    break;
+    case 'happy': return (<Bulky></Bulky>);
+    break;
+    default: return(<Text style={styles.errorText}>No Recipes!</Text>);
+  }
 }
 
 export const SetColor = () => {
@@ -76,6 +87,15 @@ const styles = StyleSheet.create({
     fontFamily: 'mightype',
     textAlign: 'center',
     color: 'white',
+    textShadowColor: 'black',
+    textShadowOffset: {width: -1, height: 1},
+    textShadowRadius: 10,
+  },
+  errorText: {
+    fontSize: 40,
+    fontFamily: 'mightype',
+    textAlign: 'center',
+    color: 'red',
     textShadowColor: 'black',
     textShadowOffset: {width: -1, height: 1},
     textShadowRadius: 10,
