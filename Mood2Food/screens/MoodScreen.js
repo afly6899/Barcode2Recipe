@@ -24,15 +24,27 @@ export default class MoodScreen extends React.Component {
     );
   }
 
+}
 
+export const SetColor = () => {
+  var mood = 'happy';
+  var color;
 
+  switch(mood) {
+    case 'happy': color = 'rgb(255,255,0)';
+    break;
+    default: 'white';
+  }
+    return (
+        color
+    );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingTop: 15,
-    backgroundColor: 'skyblue', // parameterize the bkg color
+    backgroundColor: SetColor(), // parameterize the bkg color
   },
   titleText: {
     fontSize: 80,
