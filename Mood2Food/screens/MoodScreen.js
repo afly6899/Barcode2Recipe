@@ -1,7 +1,7 @@
 import React from 'react';
 import { ScrollView, View, Text, StyleSheet } from 'react-native';
 import { Bulky, Chocolate, Meat, Combinations, Others, ProteinVitamin, Salty,
-  Soft , Starch, Others2, Sweet, Crunchy, Tough, Sugar } from '../components/Recipes';
+  Soft , Starch, Healthy, OatChamo, Sweet, Crunchy, Tough, Sugar } from '../components/Recipes';
 
 export default class MoodScreen extends React.Component {
   static navigationOptions = {
@@ -37,28 +37,24 @@ const RenderRecipes = ({m}) => {
     break;
     case 'happy': return (<Bulky></Bulky>);
     break;
-    case 'calm': return (<Bulky></Bulky>);
+    case 'calm': return (<Others></Others>);
     break;
-    case 'excited': return (<Bulky></Bulky>);
+    case 'excited': return (<Chocolate></Chocolate>);
     break;
-    case 'stressed': return (
-      [
-        <Salty></Salty>,
-        <Fatty></Fatty>
-      ]);
+    case 'stressed': return (<Salty></Salty>);
     break;
-    case 'romantic': return (<Bulky></Bulky>);
+    case 'romantic': return (<Chocolate></Chocolate>);
     break;
     case 'angry': return (
       [
-        <Meat></Meat>,
-        <Tough></Tough>,
-        <Crunchy></Crunchy>
+        <Meat key = "meat"></Meat>,
+        <Tough key = "tough"></Tough>,
+        <Crunchy key = "crunchy"></Crunchy>
       ]);
     break;
-    case 'focused': return (<Bulky></Bulky>);
+    case 'focused': return (<ProteinVitamin></ProteinVitamin>);
     break;
-    case 'frightened': return (<Bulky></Bulky>);
+    case 'frightened': return (<OatChamo></OatChamo>);
     break;
     default: return(<Text style={styles.errorText}>No Recipes!</Text>);
   }
