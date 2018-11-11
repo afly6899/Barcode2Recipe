@@ -13,6 +13,8 @@ import { WebBrowser } from 'expo';
 import { Button, ButtonGroup } from 'react-native-elements';
 import { SetColor } from './MoodScreen';
 
+import { createStackNavigator } from 'react-navigation';
+
 import { MonoText, MighText } from '../components/StyledText';
 
 export default class HomeScreen extends React.Component {
@@ -20,10 +22,10 @@ export default class HomeScreen extends React.Component {
     header: null,
   };
 
-  onPress (mood) {
-    Alert.alert(mood)
-    SetColor('happy')
-  }
+  // onPress (mood) {
+  //   Alert.alert(mood)
+  //   SetColor('happy')
+  // }
 
   render() {
     const buttons = ['Hello', 'World', 'Buttons']
@@ -56,7 +58,7 @@ export default class HomeScreen extends React.Component {
                 borderWidth: 0,
                 borderRadius: 5
               }}
-              onPress={() => this.onPress('happy')}
+              onPress={() => this.props.navigation.navigate('Links')}
               />
           </View>
 
@@ -180,11 +182,6 @@ export default class HomeScreen extends React.Component {
               />
           </View>
 
-          <View style={styles.buttonGroupContainer}>
-            <ButtonGroup
-              buttons = {buttons}/>
-          </View>
-
           <View style={styles.getStartedContainer}>
             {this._maybeRenderDevelopmentModeWarning()}
 
@@ -274,11 +271,6 @@ const styles = StyleSheet.create({
     backgroundColor: "transparent",
     justifyContent: 'space-between',
     paddingTop: 10
-  },
-  buttonGroupContainer: {
-    flex: 1,
-    flexDirection: 'column',
-    alignItems: 'center',
   },
   developmentModeText: {
     marginBottom: 20,
