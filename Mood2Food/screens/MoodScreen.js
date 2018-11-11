@@ -17,6 +17,7 @@ export default class MoodScreen extends React.Component {
           <Text style={styles.baseText}> You are feeling... </Text>
           <Text style={styles.titleText}> happy </Text>
           <Text style={styles.baseText}> ~ Bon Appetit ~ </Text>
+          <Text> <SetColor></SetColor> </Text>
         </View>
         <RenderRecipes></RenderRecipes>
       </ScrollView>
@@ -63,7 +64,7 @@ export const SetColor = (m) => {
     default: color = 'white';
   }
     return (
-        color
+        m
     );
 }
 
@@ -71,7 +72,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingTop: 15,
-    backgroundColor: SetColor(), // parameterize the bkg color
+    backgroundColor: 'white', //SetColor(), parameterize the bkg color
   },
   titleText: {
     fontSize: 80,
