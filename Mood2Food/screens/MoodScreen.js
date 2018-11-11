@@ -1,7 +1,8 @@
 import React from 'react';
 import { ScrollView, View, Text, StyleSheet } from 'react-native';
 import { Bulky, Chocolate, Meat, Combinations, Others, ProteinVitamin, Salty,
-  Soft , Starch, Healthy, OatChamo, Sweet, Crunchy, Tough, Sugar } from '../components/Recipes';
+  Soft , Starch, Healthy, Excited, OatChamo, Sweet, Crunchy, Tough, Sugar }
+  from '../components/Recipes';
 
 export default class MoodScreen extends React.Component {
   static navigationOptions = {
@@ -39,7 +40,10 @@ const RenderRecipes = ({m}) => {
     break;
     case 'calm': return (<Others></Others>);
     break;
-    case 'excited': return (<Chocolate></Chocolate>);
+    case 'excited': return ([
+      <Excited key = "excited"></Excited>,
+      <Chocolate key = "chocolate"></Chocolate>
+    ]);
     break;
     case 'stressed': return (<Salty></Salty>);
     break;
@@ -93,7 +97,6 @@ export const SetColor = (m) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 15,
     backgroundColor: SetColor(),
   },
   titleText: {
