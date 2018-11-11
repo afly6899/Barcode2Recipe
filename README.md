@@ -1,7 +1,6 @@
-# Barcode2Recipe
+# Mood2Food
 BostonHack2018 Project.  
-Our goal is to make an app that can scan ingredient barcodes and then give recipes that use those ingredients!
-We're first-time hackers and we're very excited to be here!
+Our goal is to make an app that can translate a user's mood into a list of recipe suggestions.
 
 # Collaborators
 * Audrey Lai
