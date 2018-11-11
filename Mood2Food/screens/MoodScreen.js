@@ -37,7 +37,7 @@ const RenderRecipes = () => {
   }
 }
 
-export const SetColor = (String m) => {
+export const SetColor = (m) => {
   var mood = m;
   var color;
 
