@@ -1,47 +1,58 @@
-Category,Food name,url,image
-Meat,Beef Brisket ,https://www.simplyrecipes.com/recipes/beef_brisket/?utm_campaign=yummly&utm_medium=yummly&utm_source=yummly,https://www.simplyrecipes.com/wp-content/uploads/2015/04/easy-beef-brisket-vertical-a2-1200.jpg
-Meat,Beef & Noodles,https://www.yummly.com/recipe/Lazy-Beef-_-Noodles-2501773,https://lh3.googleusercontent.com/IhnHnr_NuSaXb-WIGtVO45JEZlL6eMp-VOJvLsl05WzTwKIPhXop2lTCJvI5HwyLEvinoUt6PPB8U1fCtXzkBzM=s320-c-rj-v1-e365
-Meat,Firecracker Chicken,https://www.yummly.com/recipe/Firecracker-Chicken-1864671,https://lh3.googleusercontent.com/fCsWC1ZPIIDaWqizCBRWeuejM4HvFMQflv84tXh4OvfvOqkfJFNhQ5NdnLatGcw9EFiN0TouA28IkTI3wbr8vQ=s320-c-rj-v1-e365
-Meat,Hawaiian Meatballs,https://www.yummly.com/recipe/Hawaiian-Meatballs-2345661,https://www.iheartnaptime.net/wp-content/uploads/2017/05/Hawaiian-meatballs-i-heart-naptime.jpg
-Tough,Hidden Valley Candied Nuts,https://www.yummly.com/recipe/Hidden-Valley-Candied-Nuts-989445,https://lh5.ggpht.com/FUJMmMkTzoElqK-4HTxxzwof6KRry2HKMg3gI8HMwkNIkfex0TyYVihKv_BZYvQl4d9nnfo4FuPpsqHeiVlO0Q=s320-c-rj-v1-e365
-Tough,Garlic and Herb Bread Sticks,https://www.yummly.com/recipe/Crunchy-Garlic-and-Herb-Bread-Sticks-Serious-Eats-280756,https://images-gmi-pmc.edge-generalmills.com/0082fc25-b75a-4b31-8a69-1a35bd4d62c9.jpg
-Tough,Granola Bars,https://www.yummly.com/recipe/5-Ingredient-Granola-Bars-1263149,https://www.blessthismessplease.com/wp-content/uploads/2016/05/DSC_6017-1-1024x754.jpg
-Crunchy,Crispy Crunchy Crouton Sticks,https://www.yummly.com/recipe/Crispy-Crunchy-Crouton-Sticks-972226,https://cdn.cdkitchen.com/recipes/images/2013/11/118764-3247-mx.jpg
-Crunchy,Crunchy Edamame,https://www.yummly.com/recipe/Crunchy-Edamame-1945385,http://apple-of-my-eye.com/wp-content/uploads/2016/03/Crispy-Snack-Edamame-3-1.jpg
-Crunchy,Microwave Potato Chips,https://www.yummly.com/recipe/Crunchy-Microwave-Potato-Chips-1290788,"https://cdn.apartmenttherapy.info/image/fetch/w_800,c_fit/https://s3.amazonaws.com/pixtruder/original_images/267dc5d88ea63cb39ca68a6633ecdee55fc35fe6"
-Sugar,Sugared Donuts,https://www.yummly.com/recipe/Sugared-Donuts-1111182,https://christinascucina.com/wp-content/uploads/2014/01/IMG_4471-660.jpg
-Sugar,Chocolate Lasagna,https://www.yummly.com/recipe/Chocolate-lasagna-334802,https://www.thekitchensnob.com/wp-content/uploads/2014/06/chocolate-lasagna-6.jpg
-Sugar,Flourless Chocolate Cookies,https://www.yummly.com/recipe/4-Ingredient-Flourless-Chocolate-Cookies-_Low-FODMAP_-2086121,https://lh3.googleusercontent.com/Nrlk9TRbT994U2zMUqbPICud-GjtQDt80ojVSd6xy2ZEC-m32aDYUw5Sm1BDHCePZNyE9d-ej5_zKcaHh87dyqM=s320-c-rj-v1-e365
-Sugar,Vanilla Sponge Cake,https://www.yummly.com/recipe/Vanilla-Sponge-Cake-1578657,https://cdn.awesomecuisine.com/wp-content/uploads/2016/12/vanilla_sponge_cake.jpg
-Sweet,Lemon Cake,https://www.yummly.com/recipe/Lemon-Cake-2038999,https://realhousemoms.com/wp-content/uploads/Lemon-Cake-IG.jpg
-Sweet,Nutella Ice cream,https://www.yummly.com/recipe/Nutella-Ice-cream-1531635,https://www.chocolatemoosey.com/wp-content/uploads/2012/09/Nutella-Ice-Cream-No-Cook-Egg-Free-7715.jpg
-Sweet,Mochi Ice Cream,https://www.yummly.com/recipe/Mochi-Ice-Cream-1902195,https://kirbiecravings.com/wp-content/uploads/2016/09/mochi-ice-cream-033.jpg
-Soft,Soft Homemade Slider Buns,https://www.yummly.com/recipe/Soft-Homemade-Slider-Buns-2181607,https://lh3.googleusercontent.com/HAxznq3iBxVDkehe34-ofPkEftkDILfkUjY_fS5-gikLEjHyRXqwu06JRh92A5NHAY8tViO2g7lSLe_g4aoiEg=s320-c-rj-v1-e365)
-Soft,Soft Monster Cookies,https://www.yummly.com/recipe/Soft-Monster-Cookies-1801838,https://bakingamoment.com/wp-content/uploads/2018/08/IMG_9365-best-monster-cookies-square.jpg
-Soft,Soft Garlic Knots,https://www.yummly.com/recipe/Soft-Garlic-Knots-1619154,https://lh3.googleusercontent.com/VGzMYbqlArCMddls7LhtWq8rJZ1yF_J46U-0x3SlkmFn-PZ229QUHVwOitkc0x5gMUaOmhj6Tans8qf7ptKHBcI=s320-c-rj-v1-e365
-Salty,Pork Medallions With Maple-balsamic Sauce,https://www.yummly.com/recipe/Easy-Pork-Medallions-With-Maple-balsamic-Sauce-2526300,https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fcdn-image.myrecipes.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmedium_2x%2Fpublic%2Fimage%2Frecipes%2Fck%2F07%2F12%2Fpork-medallions-ck-1687641-x.jpg%3Fitok%3DVzWQhviK&w=1000&c=sc&poi=face&q=70
-Salty,Vegan Chili,https://www.yummly.com/recipe/Accidentally-Awesome-Vegan-Chili-With-No-Weird-Ingredients-2465773,https://cdn-image.myrecipes.com/sites/default/files/styles/medium_2x/public/image/recipes/ck/14/03/cant-believe-its-vegan-chili-ck-x.jpg?itok=tiavMceC
-Salty,Cheese and Bacon Potatoes,https://www.yummly.com/recipe/Crispy-Cheese-and-Bacon-Potatoes-2245614,https://barefeetinthekitchen.com/wp-content/uploads/2015/12/crispy-cheese-bacon-potatoes-7.jpg
-Bulky,Peanut Butter Chocolate Chip Pancakes,https://www.yummly.com/recipe/Peanut-Butter-Chocolate-Chip-Pancakes-1498252,https://prettysimplesweet.com/wp-content/uploads/2014/04/Peanut-Butter-Chocolate-Chip-Pancakes-2.jpg
-Bulky,Cucumber and Avocado Quick Nori Roll,https://www.yummly.com/recipe/Cucumber-and-Avocado-Quick-Nori-Roll-2300489,https://dwumenp4rf1cd.cloudfront.net/wp-content/uploads/2017/04/Easy-and-Allergy-Friendly-Cucumber-and-Avocado-Sushi-Rolls-678x381.png
-Bulky,Roast Beef Sandwich with Creamy Horseradish,https://www.yummly.com/recipe/Roast-Beef-Sandwich-with-Creamy-Horseradish-2217435,https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/3/3/0/ZB0203H_The-Roast-Beast-Master-with-Crispy-Onions-and-Creamy-Horseradish-Sauce_s4x3.jpg.rend.hgtvcom.826.620.suffix/1371605954334.jpeg
-Starch,Crispy Air Fryer Gluten-Free Vegan Potato Latkes,https://www.yummly.com/recipe/Crispy-Air-Fryer-Gluten-Free-Vegan-Potato-Latkes-_Allergy-Free_-Paleo_-2583328,https://strengthandsunshine.com/wp-content/uploads/2018/10/Air-Fryer-Potato-Latkes-1.jpg
-Starch,Fereni Starch Pudding,https://www.yummly.com/recipe/Fereni-Starch-Pudding-Allrecipes,https://pbs.twimg.com/media/C6ilebbVsAAfEwH.jpg
-Starch,Wheat Starch Dough Wrappers,https://www.yummly.com/recipe/Wheat-Starch-Dough-Wrappers-1532172,https://cdn.cdkitchen.com/recipes/images/2016/02/53827-4539-mx.jpg
-Combination,Southwestern Bean Combo,https://www.yummly.com/recipe/Southwestern-Bean-Combo-1290829,https://lh3.googleusercontent.com/9BrriV_Ike1U_xZcxVXkyd0INrOcmIRpC2EVIiCui8TBnCatf-q70vTFFnP8gz6bm_3_m2ixmbr8tqyaxDd8VPo=s320-c-rj-v1-e365
-Combination,Overnight Oats – Double Chocolate Chia Combo,https://www.yummly.com/recipe/Overnight-Oats-Double-Chocolate-Chia-Combo-1116260,https://lh3.googleusercontent.com/-a4WgUq6QZ6IppNFwXBeL8etIi8b8yVr-94xo2B1XYooCtVF9axjxkC-_nufCKPV5cBu1CsU7DFuQzEuNGGJVw=s320-c-rj-v1-e365
-Combination,Fruit Combo,https://www.yummly.com/recipe/Summer-Fruit-Combo-683947,https://lh6.ggpht.com/GWI97BpOEl57dG_xSLT7QWyeO05Y_st_eCzBtrsaFcgKw9JULEDfb9iWD5jk7QYVBGQx6fjV2F7hy1PCccAidg=s320-c-rj-v1-e365
-Asparagus,Asparagus,https://www.yummly.com/recipe/Asparagus-998165,https://lh3.ggpht.com/6DaeR_YQAaHZhP1MxLIS0CVH7hrIGqKjOXVWlqFkAkBddNOrbJ8I20DnPcrFjz7AimX_I7-Y7Q698fQOxLtVbA=s320-c-rj-v1-e365
-Avocado,Avocado Salad,https://www.yummly.com/recipe/Avocado-Salad-2505275,https://lh3.googleusercontent.com/F7c-XB84fP7c5jriLbs3jddXXHZ8nElfksyk3fwSsildmh8k4m8RIzN_GaqngcIONFtahEh-MxHbs_-fz3e-Mg=s320-c-rj-v1-e365
-Blueberries,Blueberry Crumb Bars,https://www.yummly.com/recipe/Blueberry-Crumb-Bars-1838585,https://lh3.googleusercontent.com/KyNDAYgz8eni0yIIEMLdNKTO2Bf_LB5e6h_WULh5xgxrcyfXkww5jDPWfpeIURLaEdaSaSKfsOM2EzN22KyO=s320-c-rj-v1-e365
-Sweet,Roasted Spiced Walnuts,https://www.yummly.com/recipe/Roasted-Spiced-Walnuts-1575551,https://lh3.googleusercontent.com/6r4M_kJNSo6cghQz5CocMjuyVCbOhN_K6DR2FVXNUc8QHaA_bVG9YYONlAB0y-gaCJzk_HPPNiv2fep0SK7cpg=s320-c-rj-v1-e365
-Healthy,Healthy Mango Strawberry Smoothie,https://www.yummly.com/recipe/Healthy-Mango-Strawberry-Smoothie-1120573,https://lh3.googleusercontent.com/rCZxHz3ZHOb3lzl5AcqiMcSD94TV_T8WdVc0bQqFTozQACDIjPemV1c5NCNLuz7g2cyYKCsWZHxotAHRuEPruQ=s320-c-rj-v1-e365
-Chocolate,Dark Chocolate Velvet Brownies,https://www.yummly.com/recipe/Dark-Chocolate-Velvet-Brownies-1238062,https://lh3.googleusercontent.com/rQLncCYmZ6-sDCT9tRiTgZg3aAtR7UAN63Y0OhvEKBED1RI6amEoB1mo5_G7hRr-7a4gkXJFoVOlrfZdYBEl1Q=s320-c-rj-v1-e365
-Chocolate,Dark Chocolate Taffy Flowers,https://www.yummly.com/recipe/Dark-Chocolate-Taffy-Flowers-2302396,https://lh3.googleusercontent.com/Ln-doKSImilEaY7-cLKOiB0qcfSKfcDgE_y-zx84oPVay1IkkWBS1oS1ipv8-A4m3hf8NgO1B5x70M8ijxTHMA=s320-c-rj-v1-e365
-Chocolate,Dark Chocolate Mousse,https://www.yummly.com/recipe/Dark-Chocolate-Mousse-1507616,https://lh3.googleusercontent.com/LyGU0ZALWJSTkJEsWznU-pAFbHZJpKokBUvyFYQxWtvmDRkLYyzedsS9V1AYjEWDxSKTpl6oPq4BNTdNrlerJPs=s320-c-rj-v1-e365
-Protein,Orange Salmon,https://www.yummly.com/recipe/Orange-Salmon-2060197,https://lh3.googleusercontent.com/1HSlq2PtRRA61HtbzZt1EBeUTExRxEuBg_kBhqa0e7OUpF6_vv5LAS3w83lccafPdsnxXnxKhyBsADHKXOwH8g=s320-c-rj-v1-e365
-Protein,English Fish & Chips,https://www.yummly.com/recipe/English-Fish-_n-Chips-1005960,https://lh4.ggpht.com/zcLQrSaivTlDxtvASzNS-6BXRONNSSZtxZLzJGRxKE3YR4x9XzhO9_GNLiA9gn7Nm8-xDJ4obxwSAVtnK3ZLaA=s320-c-rj-v1-e365
-Vitamins,Vitamin Soup,https://www.yummly.com/recipe/Vitamin-Soup-1445401,https://lh3.googleusercontent.com/mrjlovd6hE7WSSzibIlyBO1oYFmC5ocSt4xb8Z3Gqaw9D3WB7CCKeFf9pNwUmWwgEyhI0SWztcW2ZctcxPpIzg=s320-c-rj-v1-e365
-Vitamins,Vitamin C Fruit Smoothie,https://www.yummly.com/recipe/Vitamin-C-Fruit-Smoothie-2546565,https://lh3.googleusercontent.com/wXV_VFRi9aIt9f4OGNOUay_c7g8irzcplz7uklOBvuHb2_F_XOlDALYmXmRPCs5zef_qrg0aph_eFE6EsmzY=s320-c-rj-v1-e365
-Chamomile,Chamomile & Turmeric Evening Tea,https://www.yummly.com/recipe/Chamomile-_-Turmeric-Evening-Tea-1390087,https://lh3.googleusercontent.com/oAX4MwfSBq9W2eT49W0GMZzXKv5J6WWyvhmXr0r9r_y1mbTFz0h6DrwVa98jppgfmvKxyykrudwAGizZAxdwYpA=s320-c-rj-v1-e365
-Oatmeal,Tropical Oatmeal,https://www.yummly.com/recipe/Tropical-Oatmeal-2541828,https://lh3.googleusercontent.com/bgSZ4EOoT-DE958aNZsdUlmFO1pHDT36S5SVgC1AEUaEl4Xbv0dqsvFOqPFW7D0NZr50Fku11VQWBA6rj8QYqp4=s320-c-rj-v1-e365
+Category,Food name,ingredients,recipe,url
+Meat,Beef Brisket ,"3 to 4 lbs of a brisket cut of beef
+3/4 cup barbeque sauce
+1/4 cup soy sauce
+1 cup of water","1. Trim the fat cap on the brisket down to about 1/4-inch.
+2. Chef’s Note: What’s a Fat Cap? Untrimmed beef brisket, is referred to as a full packer brisket, and is made of at least two muscles. The flatter leaner portion is defined as the flat. Whereas the thicker more marbled portion is referred to as the point or the deckle. One side of the brisket is covered in a layer of fat called the fat cap.
+3. Using a nice sharp knife cut a crosshatch pattern into the fat cap.
+4. Rub about a tablespoon of kosher salt into the cuts in the fat cap.
+5. Chef’s Note: My dry rub does not include any salt; however, most commercial dry rubs do. So, if you are not using my rub, skip this step. I choose to add the salt separately for two reasons: One, it allows me to control the amount of salt. Two, by applying the salt separately, it gives the salt first crack at the beef.
+6. Apply a generous portion of the dry rub, and rub it into the cuts.
+7. Chef’s Tip: The rub should look like sand on wet skin: Evenly distributed, but not clumped.
+8. Wrap tightly in foil, and allow to rest in the refrigerator overnight. This gives the ingredients a chance to know each other.
+9. In the morning (real early) remove the brisket from the fridge, and allow it to sit on your counter for about an hour. This will take the chill off the beef before placing it in the heat source.",https://www.simplyrecipes.com/recipes/beef_brisket/?utm_campaign=yummly&utm_medium=yummly&utm_source=yummly
+Meat,Beef & Noodles,,,https://www.yummly.com/recipe/Lazy-Beef-_-Noodles-2501773
+Meat,Firecracker Chicken,,,https://www.yummly.com/recipe/Firecracker-Chicken-1864671
+Meat,Hawaiian Meatballs,,,https://www.yummly.com/recipe/Hawaiian-Meatballs-2345661
+Tough,Hidden Valley Candied Nuts,,,https://www.yummly.com/recipe/Hidden-Valley-Candied-Nuts-989445
+Tough,Garlic and Herb Bread Sticks,,,https://www.yummly.com/recipe/Crunchy-Garlic-and-Herb-Bread-Sticks-Serious-Eats-280756
+Tough,Granola Bars,,,https://www.yummly.com/recipe/5-Ingredient-Granola-Bars-1263149
+Crunchy,Crispy Crunchy Crouton Sticks,,,https://www.yummly.com/recipe/Crispy-Crunchy-Crouton-Sticks-972226
+Crunchy,Crunchy Edamame,,,https://www.yummly.com/recipe/Crunchy-Edamame-1945385
+Crunchy,Microwave Potato Chips,,,https://www.yummly.com/recipe/Crunchy-Microwave-Potato-Chips-1290788
+Sugar,Sugared Donuts,,,https://www.yummly.com/recipe/Sugared-Donuts-1111182
+Sugar,Chocolate Lasagna,,,https://www.yummly.com/recipe/Chocolate-lasagna-334802
+Sugar,Flourless Chocolate Cookies,,,https://www.yummly.com/recipe/4-Ingredient-Flourless-Chocolate-Cookies-_Low-FODMAP_-2086121
+Sugar,Vanilla Sponge Cake,,,https://www.yummly.com/recipe/Vanilla-Sponge-Cake-1578657
+Sweet,Lemon Cake,,,https://www.yummly.com/recipe/Lemon-Cake-2038999
+Sweet,Nutella Ice cream,,,https://www.yummly.com/recipe/Nutella-Ice-cream-1531635
+Sweet,Mochi Ice Cream,,,https://www.yummly.com/recipe/Mochi-Ice-Cream-1902195
+Soft,Soft Homemade Slider Buns,,,https://www.yummly.com/recipe/Soft-Homemade-Slider-Buns-2181607
+Soft,Soft Monster Cookies,,,https://www.yummly.com/recipe/Soft-Monster-Cookies-1801838
+Soft,Soft Garlic Knots,,,https://www.yummly.com/recipe/Soft-Garlic-Knots-1619154
+Salty,Pork Medallions With Maple-balsamic Sauce,,,https://www.yummly.com/recipe/Easy-Pork-Medallions-With-Maple-balsamic-Sauce-2526300
+Salty,Vegan Chili,,,https://www.yummly.com/recipe/Accidentally-Awesome-Vegan-Chili-With-No-Weird-Ingredients-2465773
+Salty,Cheese and Bacon Potatoes,,,https://www.yummly.com/recipe/Crispy-Cheese-and-Bacon-Potatoes-2245614
+Bulky,Peanut Butter Chocolate Chip Pancakes,,,https://www.yummly.com/recipe/Peanut-Butter-Chocolate-Chip-Pancakes-1498252
+Bulky,Cucumber and Avocado Quick Nori Roll,,,https://www.yummly.com/recipe/Cucumber-and-Avocado-Quick-Nori-Roll-2300489
+Bulky,Roast Beef Sandwich with Creamy Horseradish,,,https://www.yummly.com/recipe/Roast-Beef-Sandwich-with-Creamy-Horseradish-2217435
+Starch,Crispy Air Fryer Gluten-Free Vegan Potato Latkes,,,https://www.yummly.com/recipe/Crispy-Air-Fryer-Gluten-Free-Vegan-Potato-Latkes-_Allergy-Free_-Paleo_-2583328
+Starch,Fereni Starch Pudding,,,https://www.yummly.com/recipe/Fereni-Starch-Pudding-Allrecipes
+Starch,Wheat Starch Dough Wrapper,,,https://www.yummly.com/recipe/Wheat-Starch-Dough-Wrappers-1532172
+Combination,Southwestern Bean Combo,,,https://www.yummly.com/recipe/Southwestern-Bean-Combo-1290829
+Combination,Overnight Oats – Double Chocolate Chia Combo,,,https://www.yummly.com/recipe/Overnight-Oats-Double-Chocolate-Chia-Combo-1116260
+Combination,Fruit Combo,,,https://www.yummly.com/recipe/Summer-Fruit-Combo-683947
+Asparagus,Asparagus,,,https://www.yummly.com/recipe/Asparagus-998165
+Avocado,Avocado Salad,,,https://www.yummly.com/recipe/Avocado-Salad-2505275
+Blueberries,Blueberry Crumb Bars,,,https://www.yummly.com/recipe/Blueberry-Crumb-Bars-1838585
+Sweet,Roasted Spiced Walnuts,,,https://www.yummly.com/recipe/Roasted-Spiced-Walnuts-1575551
+Healthy,Healthy Mango Strawberry Smoothie,,,https://www.yummly.com/recipe/Healthy-Mango-Strawberry-Smoothie-1120573
+Chocolate,Dark Chocolate Velvet Brownies,,,https://www.yummly.com/recipe/Dark-Chocolate-Velvet-Brownies-1238062
+Chocolate,Dark Chocolate Taffy Flowers,,,https://www.yummly.com/recipe/Dark-Chocolate-Taffy-Flowers-2302396
+Chocolate,Dark Chocolate Mousse,,,https://www.yummly.com/recipe/Dark-Chocolate-Mousse-1507616
+Protein,Orange Salmon,,,https://www.yummly.com/recipe/Orange-Salmon-2060197
+Protein,English Fish & Chips,,,https://www.yummly.com/recipe/English-Fish-_n-Chips-1005960
+Vitamins,Vitamin Soup,,,https://www.yummly.com/recipe/Vitamin-Soup-1445401
+Vitamins,Vitamin C Fruit Smoothie,,,https://www.yummly.com/recipe/Vitamin-C-Fruit-Smoothie-2546565
+Chamomile,Chamomile & Turmeric Evening Tea,,,https://www.yummly.com/recipe/Chamomile-_-Turmeric-Evening-Tea-1390087
+Oatmeal,Tropical Oatmeal,,,https://www.yummly.com/recipe/Tropical-Oatmeal-2541828
