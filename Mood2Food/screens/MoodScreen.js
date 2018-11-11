@@ -39,9 +39,9 @@ const RenderRecipes = () => {
 }
 
 export const SetColor = (m) => {
-  var mood = m;
-  var color;
+  var mood = Object.values(m);
 
+  var color;
   switch(mood) {
     case 'happy': color = 'rgb(255,255,0)';
     break;
@@ -64,7 +64,7 @@ export const SetColor = (m) => {
     default: color = 'white';
   }
     return (
-        m
+        mood
     );
 }
 
