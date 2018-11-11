@@ -39,7 +39,7 @@ const RenderRecipes = () => {
 }
 
 export const SetColor = (m) => {
-  var mood = Object.values(m);
+  var mood = typeof m;
 
   var color;
   switch(mood) {
