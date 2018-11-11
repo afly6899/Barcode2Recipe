@@ -179,6 +179,99 @@ export class Starch extends Component{
   }
 };
 
+export class Others2 extends Component{
+  render(){
+    return (
+      <View style={styles.container}>
+       <Image source={{uri: "https://lh3.googleusercontent.com/rCZxHz3ZHOb3lzl5AcqiMcSD94TV_T8WdVc0bQqFTozQACDIjPemV1c5NCNLuz7g2cyYKCsWZHxotAHRuEPruQ=s320-c-rj-v1-e365", width: 130, height: 80}} />
+        <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Healthy-Mango-Strawberry-Smoothie-1120573') } >Mango Smoothie
+         </Text>
+          <Image source={{uri: "https://lh3.googleusercontent.com/oAX4MwfSBq9W2eT49W0GMZzXKv5J6WWyvhmXr0r9r_y1mbTFz0h6DrwVa98jppgfmvKxyykrudwAGizZAxdwYpA=s320-c-rj-v1-e365", width: 130, height: 80}} />
+          <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Chamomile-_-Turmeric-Evening-Tea-1390087') } >Chamomile Tea
+            </Text>
+            <Image source={{uri: "https://lh3.googleusercontent.com/bgSZ4EOoT-DE958aNZsdUlmFO1pHDT36S5SVgC1AEUaEl4Xbv0dqsvFOqPFW7D0NZr50Fku11VQWBA6rj8QYqp4=s320-c-rj-v1-e365", width: 130, height: 80}} />
+       <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Tropical-Oatmeal-2541828') } >Tropical Oatmeal
+          </Text>
+      </View>
+    );
+  }
+};
+
+export class Sweet extends Component{
+  render(){
+    return (
+      <View style={styles.container}>
+       <Image source={{uri: "https://kirbiecravings.com/wp-content/uploads/2016/09/mochi-ice-cream-033.jpg", width: 130, height: 80}} />
+        <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Mochi-Ice-Cream-1902195') } >Mochi Ice Cream
+         </Text>
+          <Image source={{uri: "https://www.chocolatemoosey.com/wp-content/uploads/2012/09/Nutella-Ice-Cream-No-Cook-Egg-Free-7715.jpg", width: 130, height: 80}} />
+          <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Nutella-Ice-cream-1531635') } >Nutella Ice cream
+            </Text>
+            <Image source={{uri: "https://realhousemoms.com/wp-content/uploads/Lemon-Cake-IG.jpg", width: 130, height: 80}} />
+       <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Lemon-Cake-2038999') } >Lemon Cake
+          </Text>
+      </View>
+    );
+  }
+};
+
+export class Crunchy extends Component{
+  render(){
+    return (
+      <View style={styles.container}>
+       <Image source={{uri: "https://cdn.apartmenttherapy.info/image/fetch/w_800,c_fit/https://s3.amazonaws.com/pixtruder/original_images/267dc5d88ea63cb39ca68a6633ecdee55fc35fe6", width: 130, height: 80}} />
+        <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Crunchy-Microwave-Potato-Chips-1290788') } >Microwave Potato Chips
+         </Text>
+          <Image source={{uri: "http://apple-of-my-eye.com/wp-content/uploads/2016/03/Crispy-Snack-Edamame-3-1.jpg", width: 130, height: 80}} />
+          <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Crunchy-Edamame-1945385') } >Crunchy Edamame
+            </Text>
+            <Image source={{uri: "https://cdn.cdkitchen.com/recipes/images/2013/11/118764-3247-mx.jpg", width: 130, height: 80}} />
+       <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Crispy-Crunchy-Crouton-Sticks-972226') } >Crispy Crouton Sticks
+          </Text>
+      </View>
+    );
+  }
+};
+
+export class Tough extends Component{
+  render(){
+    return (
+      <View style={styles.container}>
+       <Image source={{uri: "https://www.blessthismessplease.com/wp-content/uploads/2016/05/DSC_6017-1-1024x754.jpg", width: 130, height: 80}} />
+        <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/5-Ingredient-Granola-Bars-1263149') } >Granola Bars
+         </Text>
+          <Image source={{uri: "https://images-gmi-pmc.edge-generalmills.com/0082fc25-b75a-4b31-8a69-1a35bd4d62c9.jpg", width: 130, height: 80}} />
+          <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Crunchy-Garlic-and-Herb-Bread-Sticks-Serious-Eats-280756') } >Bread Sticks
+            </Text>
+            <Image source={{uri: "https://lh5.ggpht.com/FUJMmMkTzoElqK-4HTxxzwof6KRry2HKMg3gI8HMwkNIkfex0TyYVihKv_BZYvQl4d9nnfo4FuPpsqHeiVlO0Q=s320-c-rj-v1-e365", width: 130, height: 80}} />
+       <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Hidden-Valley-Candied-Nuts-989445') } >Candied Nuts
+          </Text>
+      </View>
+    );
+  }
+};
+
+export class Sugar extends Component{
+  render(){
+    return (
+      <View style={styles.container}>
+       <Image source={{uri: "https://christinascucina.com/wp-content/uploads/2014/01/IMG_4471-660.jpg", width: 130, height: 80}} />
+        <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Sugared-Donuts-1111182') } >Sugared Donuts
+         </Text>
+          <Image source={{uri: "https://www.thekitchensnob.com/wp-content/uploads/2014/06/chocolate-lasagna-6.jpg", width: 130, height: 80}} />
+          <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Chocolate-lasagna-334802') } >Chocolate Lasagna
+            </Text>
+            <Image source={{uri: "https://lh3.googleusercontent.com/Nrlk9TRbT994U2zMUqbPICud-GjtQDt80ojVSd6xy2ZEC-m32aDYUw5Sm1BDHCePZNyE9d-ej5_zKcaHh87dyqM=s320-c-rj-v1-e365", width: 130, height: 80}} />
+       <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/4-Ingredient-Flourless-Chocolate-Cookies-_Low-FODMAP_-2086121') } >Flourless Cookies
+          </Text>
+         <Image source={{uri: "https://cdn.awesomecuisine.com/wp-content/uploads/2016/12/vanilla_sponge_cake.jpg", width: 130, height: 80}} />
+       <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Vanilla-Sponge-Cake-1578657') } >Vanilla Sponge Cake
+          </Text>
+      </View>
+    );
+  }
+};
+
 var styles = StyleSheet.create({
   container:{
      flex: 1,
