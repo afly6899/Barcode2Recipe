@@ -1,8 +1,8 @@
 import React from 'react';
 import { ScrollView, View, Text, StyleSheet } from 'react-native';
 import { MonoText, MighText } from '../components/StyledText';
-import { Bulky } from '../components/Bulky'
-import { Chocolate } from '../components/Chocolate'
+import { Bulky, Chocolate, Meat, Combinations, Others, ProteinVitamin, Salty,
+  Starch, Sugar, Sweet, Tough } from '../components/Recipes';
 
 export default class MoodScreen extends React.Component {
   static navigationOptions = {
