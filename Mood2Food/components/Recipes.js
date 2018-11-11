@@ -192,6 +192,24 @@ export class Healthy extends Component{
   }
 };
 
+export class Excited extends Component{
+  render(){
+    return (
+      <View style={styles.container}>
+       <Image source={{uri: "http://d3lp4xedbqa8a5.cloudfront.net/s3/digital-cougar-assets/food/2015/03/06/693caa2a-5fdf-41fd-917b-3e197e26658f/seafood-crepes.jpg", width: 180, height: 120}} />
+        <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/SEAFOOD-CREPES-2466219') } >Seafood Crepes
+         </Text>
+            <Image source={{uri: "https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2016/12/29/0/CCTIA301H_Seafood-Paella_s4x3.jpg.rend.hgtvcom.616.462.suffix/1483043433838.jpeg", width: 180, height: 120}} />
+       <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Easy-Seafood-Paella-2077829') } >Seafood Paella
+          </Text>
+          <Image source={{uri: "https://3.bp.blogspot.com/-hkN7VzIc_jQ/WGWzk6qV6hI/AAAAAAAAfeU/eqIcwHuIc6gmBSfbjqxmxHHpqAQSzrIswCLcB/s1600/Seafood%2BChowder%2B%25282%2Bof%2B1%2529.jpg", width: 180, height: 120}} />
+       <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Seafood-Chowder-977401') } >Seafood Chowder
+          </Text> 
+      </View>
+    );
+  }
+};
+
 export class OatChamo extends Component{
   render(){
     return (
