@@ -27,13 +27,29 @@ export default class MoodScreen extends React.Component {
 }
 
 export const SetColor = () => {
-  var mood = 'happy';
+  var mood = 'sad';
   var color;
 
   switch(mood) {
     case 'happy': color = 'rgb(255,255,0)';
     break;
-    default: 'white';
+    case 'sad': color = 'rgb(-100,149,237)';
+    break;
+    case 'calm': color = 'rgb(-144,238,144)';
+    break;
+    case 'excited': color = 'rgb(255,69,0)';
+    break;
+    case 'stressed': color = 'rgb(255,140,0)';
+    break;
+    case 'romantic': color = 'rgb(220,20,60)';
+    break;
+    case 'angry': color = 'rgb(139,0,0)';
+    break;
+    case 'focused': color = 'rgb(-100,149,237)';
+    break;
+    case 'frightened': color = 'rgb(255,255,0)';
+    break;
+    default: color = 'white';
   }
     return (
         color
@@ -51,11 +67,17 @@ const styles = StyleSheet.create({
     fontFamily: 'mightype',
     textAlign: 'center',
     color: 'white',
+    textShadowColor: 'black',
+    textShadowOffset: {width: -1, height: 1},
+    textShadowRadius: 10,
   },
   baseText: {
     fontSize: 40,
     fontFamily: 'mightype',
     textAlign: 'center',
     color: 'white',
+    textShadowColor: 'black',
+    textShadowOffset: {width: -1, height: 1},
+    textShadowRadius: 10,
   }
 });

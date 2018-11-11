@@ -284,7 +284,10 @@ var styles = StyleSheet.create({
     alignItems: 'center'
   },
   TextStyle: {
-    color: '#000080',
+    color: 'white',
+    textShadowColor: 'black',
+    textShadowOffset: {width: -1, height: 1},
+    textShadowRadius: 10,
     fontFamily: 'mightype',
     textDecorationLine: 'underline'
   }
