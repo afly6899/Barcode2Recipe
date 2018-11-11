@@ -285,6 +285,7 @@ var styles = StyleSheet.create({
   },
   TextStyle: {
     color: '#000080',
+    fontFamily: 'mightype',
     textDecorationLine: 'underline'
   }
 });

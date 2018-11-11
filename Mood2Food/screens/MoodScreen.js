@@ -1,8 +1,7 @@
 import React from 'react';
 import { ScrollView, View, Text, StyleSheet } from 'react-native';
-import { MonoText, MighText } from '../components/StyledText';
 import { Bulky, Chocolate, Meat, Combinations, Others, ProteinVitamin, Salty,
-  Starch, Sugar, Sweet, Tough } from '../components/Recipes';
+  Starch, Sugar, Sweet, Tough, Others2 } from '../components/Recipes';
 
 export default class MoodScreen extends React.Component {
   static navigationOptions = {
@@ -15,9 +14,9 @@ export default class MoodScreen extends React.Component {
         <View style={{
           alignItems: 'stretch',
         }}>
-          <MighText style={styles.baseText}> You are feeling... </MighText>
-          <MighText style={styles.titleText}> happy </MighText>
-          <MighText style={styles.baseText}> ~ Bon Appetit ~ </MighText>
+          <Text style={styles.baseText}> You are feeling... </Text>
+          <Text style={styles.titleText}> happy </Text>
+          <Text style={styles.baseText}> ~ Bon Appetit ~ </Text>
         </View>
         <Bulky> </Bulky>
         <Chocolate> </Chocolate>
@@ -37,11 +36,13 @@ const styles = StyleSheet.create({
   },
   titleText: {
     fontSize: 80,
+    fontFamily: 'mightype',
     textAlign: 'center',
     color: 'white',
   },
   baseText: {
     fontSize: 40,
+    fontFamily: 'mightype',
     textAlign: 'center',
     color: 'white',
   }
