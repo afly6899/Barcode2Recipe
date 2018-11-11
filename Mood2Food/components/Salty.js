@@ -7,7 +7,7 @@ import {
   Image
 } from 'react-native';
 
-export default class Meat extends Component{
+export class Salty extends Component{
 
   render(){
     return (
@@ -18,7 +18,7 @@ export default class Meat extends Component{
           <Image source={{uri: "https://cdn-image.myrecipes.com/sites/default/files/styles/medium_2x/public/image/recipes/ck/14/03/cant-believe-its-vegan-chili-ck-x.jpg?itok=tiavMceC", width: 130, height: 80}} />
           <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Accidentally-Awesome-Vegan-Chili-With-No-Weird-Ingredients-2465773') } >Vegan Chili
             </Text>
-            <Image source={{uri: "https://barefeetinthekitchen.com/wp-content/uploads/2015/12/crispy-cheese-bacon-potatoes-7.jpg", width: 130, height: 80}} />   
+            <Image source={{uri: "https://barefeetinthekitchen.com/wp-content/uploads/2015/12/crispy-cheese-bacon-potatoes-7.jpg", width: 130, height: 80}} />
        <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Crispy-Cheese-and-Bacon-Potatoes-2245614') } >Cheese&Bacon Potatoes
           </Text>
       </View>

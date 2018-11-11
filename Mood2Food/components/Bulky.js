@@ -7,8 +7,7 @@ import {
   Image
 } from 'react-native';
 
-export default class Meat extends Component{
-
+export class Bulky extends Component {
   render(){
     return (
       <View style={styles.container}>
@@ -18,7 +17,7 @@ export default class Meat extends Component{
           <Image source={{uri: "https://dwumenp4rf1cd.cloudfront.net/wp-content/uploads/2017/04/Easy-and-Allergy-Friendly-Cucumber-and-Avocado-Sushi-Rolls-678x381.png", width: 130, height: 80}} />
           <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Cucumber-and-Avocado-Quick-Nori-Roll-2300489') } >Nori Roll
             </Text>
-            <Image source={{uri: "https://cdn.cdkitchen.com/recipes/images/2016/02/53827-4539-mx.jpg", width: 130, height: 80}} />   
+            <Image source={{uri: "https://cdn.cdkitchen.com/recipes/images/2016/02/53827-4539-mx.jpg", width: 130, height: 80}} />
        <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Roast-Beef-Sandwich-with-Creamy-Horseradish-2217435') } >Roast Beef Sandwich
           </Text>
       </View>

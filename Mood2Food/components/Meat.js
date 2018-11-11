@@ -7,7 +7,7 @@ import {
   Image
 } from 'react-native';
 
-export default class Meat extends Component{
+export class Meat extends Component{
 
   render(){
     return (
@@ -18,10 +18,10 @@ export default class Meat extends Component{
           <Image source={{uri: "https://www.thefrugalnavywife.com/wp-content/uploads/2015/06/Lazy-Beef-Noodles.jpg", width: 100, height: 60}} />
           <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Lazy-Beef-_-Noodles-2501773') } >Beef & Noodles
             </Text>
-            <Image source={{uri: "https://www.dinneratthezoo.com/wp-content/uploads/2017/10/firecracker-chicken-1.jpg", width: 100, height: 60}} />   
+            <Image source={{uri: "https://www.dinneratthezoo.com/wp-content/uploads/2017/10/firecracker-chicken-1.jpg", width: 100, height: 60}} />
        <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Firecracker-Chicken-1864671') } >Firecracker Chicken
           </Text>
-        <Image source={{uri: "https://www.iheartnaptime.net/wp-content/uploads/2017/05/Hawaiian-meatballs-i-heart-naptime.jpg", width: 100, height: 60}} />   
+        <Image source={{uri: "https://www.iheartnaptime.net/wp-content/uploads/2017/05/Hawaiian-meatballs-i-heart-naptime.jpg", width: 100, height: 60}} />
        <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Hawaiian-Meatballs-2345661') } >Hawaiian Meetballs
           </Text>
       </View>

@@ -7,7 +7,7 @@ import {
   Image
 } from 'react-native';
 
-export default class Meat extends Component{
+export class ProteinVitamin extends Component{
 
   render(){
     return (
@@ -18,10 +18,10 @@ export default class Meat extends Component{
           <Image source={{uri: "https://www.whats4eats.com/files/fish-fish-chips-flickr-10413717%40N08-Smabs-Sputzer-9355126330-4x3.jpg", width: 100, height: 60}} />
           <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/English-Fish-_n-Chips-1005960') } >English Fish & Chips
             </Text>
-            <Image source={{uri: "http://3.bp.blogspot.com/-lxkVRbvXsFU/UMjSH4Owq6I/AAAAAAAACPA/I59PNux4LfE/s1600/030+vitamin+vegetable+soup.jpgZ", width: 100, height: 60}} />   
+            <Image source={{uri: "http://3.bp.blogspot.com/-lxkVRbvXsFU/UMjSH4Owq6I/AAAAAAAACPA/I59PNux4LfE/s1600/030+vitamin+vegetable+soup.jpgZ", width: 100, height: 60}} />
            <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Vitamin-Soup-1445401') } >Vitamin Soup
           </Text>
-         <Image source={{uri: "https://img-aws.ehowcdn.com/350x235p/photos.demandstudios.com/227/57/fotolia_9512288_XS.jpg", width: 100, height: 60}} />   
+         <Image source={{uri: "https://img-aws.ehowcdn.com/350x235p/photos.demandstudios.com/227/57/fotolia_9512288_XS.jpg", width: 100, height: 60}} />
            <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Vitamin-C-Fruit-Smoothie-2546565') } >Vitamin Fruit Smoothie
           </Text>
       </View>

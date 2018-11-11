@@ -7,7 +7,7 @@ import {
   Image
 } from 'react-native';
 
-export default class Meat extends Component{
+export class Combinations extends Component{
 
   render(){
     return (
@@ -18,7 +18,7 @@ export default class Meat extends Component{
           <Image source={{uri: "http://ohhappydane.com/wp-content/uploads/2015/04/IMG_4184.jpg", width: 130, height: 80}} />
           <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Overnight-Oats-Double-Chocolate-Chia-Combo-1116260') } >Chocolate Chia Combo
             </Text>
-            <Image source={{uri: "https://pinchofyum.com/wp-content/uploads/2013/05/quinoa-black-bean-1.jpg", width: 130, height: 80}} />   
+            <Image source={{uri: "https://pinchofyum.com/wp-content/uploads/2013/05/quinoa-black-bean-1.jpg", width: 130, height: 80}} />
        <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Southwestern-Bean-Combo-1290829') } >Bean Combo
           </Text>
       </View>

@@ -7,7 +7,7 @@ import {
   Image
 } from 'react-native';
 
-export default class Meat extends Component{
+export class Starch extends Component{
 
   render(){
     return (
@@ -18,7 +18,7 @@ export default class Meat extends Component{
           <Image source={{uri: "https://pbs.twimg.com/media/C6ilebbVsAAfEwH.jpg", width: 130, height: 80}} />
           <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Fereni-Starch-Pudding-Allrecipes') } >Fereni Starch Pudding
             </Text>
-            <Image source={{uri: "https://cdn.cdkitchen.com/recipes/images/2016/02/53827-4539-mx.jpg", width: 130, height: 80}} />   
+            <Image source={{uri: "https://cdn.cdkitchen.com/recipes/images/2016/02/53827-4539-mx.jpg", width: 130, height: 80}} />
        <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Wheat-Starch-Dough-Wrappers-1532172') } >Wheat Dough Wrappers
           </Text>
       </View>

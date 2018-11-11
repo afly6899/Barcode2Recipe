@@ -7,7 +7,7 @@ import {
   Image
 } from 'react-native';
 
-export default class Meat extends Component{
+export class Soft extends Component{
 
   render(){
     return (
@@ -18,7 +18,7 @@ export default class Meat extends Component{
           <Image source={{uri: "https://bakingamoment.com/wp-content/uploads/2018/08/IMG_9365-best-monster-cookies-square.jpg", width: 130, height: 80}} />
           <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Soft-Monster-Cookies-1801838') } >Soft Monster Cookies
             </Text>
-            <Image source={{uri: "https://barefeetinthekitchen.com/wp-content/uploads/2015/12/crispy-cheese-bacon-potatoes-7.jpg", width: 130, height: 80}} />   
+            <Image source={{uri: "https://barefeetinthekitchen.com/wp-content/uploads/2015/12/crispy-cheese-bacon-potatoes-7.jpg", width: 130, height: 80}} />
        <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Crispy-Cheese-and-Bacon-Potatoes-2245614') } >Cheese&Bacon Potatoes
           </Text>
       </View>

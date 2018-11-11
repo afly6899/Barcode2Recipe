@@ -7,8 +7,7 @@ import {
   Image
 } from 'react-native';
 
-export default class Meat extends Component{
-
+export class Chocolate extends Component{
   render(){
     return (
       <View style={styles.container}>
@@ -18,7 +17,7 @@ export default class Meat extends Component{
           <Image source={{uri: "https://www.thefrugalnavywife.com/wp-content/uploads/2015/06/Lazy-Beef-Noodles.jpg", width: 130, height: 80}} />
           <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Dark-Chocolate-Taffy-Flowers-2302396') } >Taffy Flowers
             </Text>
-            <Image source={{uri: "https://www.dinneratthezoo.com/wp-content/uploads/2017/10/firecracker-chicken-1.jpg", width: 130, height: 80}} />   
+            <Image source={{uri: "https://www.dinneratthezoo.com/wp-content/uploads/2017/10/firecracker-chicken-1.jpg", width: 130, height: 80}} />
        <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Dark-Chocolate-Mousse-1507616') } >Mousse
           </Text>
       </View>
