@@ -14,7 +14,7 @@ export default class MoodScreen extends React.Component {
 
     return (
       input_mood,
-      <ScrollView style={styles.container}>
+      <ScrollView style={[styles.container, {backgroundColor: SetColor(input_mood)}]}>
         <View style={{
           alignItems: 'stretch',
         }}>
@@ -22,15 +22,15 @@ export default class MoodScreen extends React.Component {
           <Text style={styles.titleText}> {input_mood} </Text>
           <Text style={styles.baseText}> ~ Bon Appetit ~ </Text>
         </View>
-        <RenderRecipes></RenderRecipes>
+        <RenderRecipes>{input_mood}</RenderRecipes>
       </ScrollView>
     );
   }
 
 }
 
-const RenderRecipes = () => {
-  var mood = 's';
+const RenderRecipes = (m) => {
+  var mood = m;
 
   switch(mood) {
     case 'sad': return (<Meat></Meat>);
