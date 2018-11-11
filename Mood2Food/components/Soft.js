@@ -8,7 +8,6 @@ import {
 } from 'react-native';
 
 export class Soft extends Component{
-
   render(){
     return (
       <View style={styles.container}>
