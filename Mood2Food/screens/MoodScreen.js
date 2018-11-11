@@ -33,7 +33,7 @@ const RenderRecipes = ({m}) => {
   var mood = m;
 
   switch(mood) {
-    case 'sad': return (<Meat></Meat>);
+    case 'sad': return (<Sugar></Sugar>);
     break;
     case 'happy': return (<Bulky></Bulky>);
     break;
@@ -41,16 +41,20 @@ const RenderRecipes = ({m}) => {
     break;
     case 'excited': return (<Bulky></Bulky>);
     break;
-    case 'stressed': return (<Bulky></Bulky>);
+    case 'stressed': return (
+      [
+        <Salty></Salty>,
+        <Fatty></Fatty>
+      ]);
     break;
     case 'romantic': return (<Bulky></Bulky>);
     break;
     case 'angry': return (
-      <React.Fragment>
+      [
         <Meat></Meat>,
         <Tough></Tough>,
         <Crunchy></Crunchy>
-      </React.Fragment>);
+      ]);
     break;
     case 'focused': return (<Bulky></Bulky>);
     break;

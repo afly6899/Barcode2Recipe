@@ -96,9 +96,7 @@ export class Others extends Component{
             <Image source={{uri: "http://www.justsotasty.com/wp-content/uploads/2016/03/Blueberry-Crumble-Bars-2.jpg", width: 180, height: 120}} />
            <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Blueberry-Crumb-Bars-1838585') } >Blueberry Crumb Bars
           </Text>
-         <Image source={{uri: "https://www.williams-sonoma.com/wsimgs/rk/images/dp/recipe/201803/0027/img77l.jpg", width: 180, height: 120}} />
-           <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Roasted-Spiced-Walnuts-1575551') } >Roasted Spiced Walnuts
-          </Text>
+
       </View>
     );
   }
@@ -179,7 +177,7 @@ export class Starch extends Component{
   }
 };
 
-export class Others2 extends Component{
+export class Healthy extends Component{
   render(){
     return (
       <View style={styles.container}>
