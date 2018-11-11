@@ -33,10 +33,10 @@ export class Chocolate extends Component{
        <Image source={{uri: "https://www.averiecooks.com/wp-content/uploads/2014/01/redvelvetbarstext.jpg", width: 180, height: 120}} />
         <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Dark-Chocolate-Velvet-Brownies-1238062') } >Velvet Brownies
          </Text>
-          <Image source={{uri: "https://www.thefrugalnavywife.com/wp-content/uploads/2015/06/Lazy-Beef-Noodles.jpg", width: 180, height: 120}} />
+          <Image source={{uri: "https://lh3.googleusercontent.com/Ln-doKSImilEaY7-cLKOiB0qcfSKfcDgE_y-zx84oPVay1IkkWBS1oS1ipv8-A4m3hf8NgO1B5x70M8ijxTHMA=s320-c-rj-v1-e365", width: 180, height: 120}} />
           <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Dark-Chocolate-Taffy-Flowers-2302396') } >Taffy Flowers
             </Text>
-            <Image source={{uri: "https://www.dinneratthezoo.com/wp-content/uploads/2017/10/firecracker-chicken-1.jpg", width: 180, height: 120}} />
+            <Image source={{uri: "https://lh3.googleusercontent.com/LyGU0ZALWJSTkJEsWznU-pAFbHZJpKokBUvyFYQxWtvmDRkLYyzedsS9V1AYjEWDxSKTpl6oPq4BNTdNrlerJPs=s320-c-rj-v1-e365", width: 180, height: 120}} />
        <Text style={styles.TextStyle} onPress={ ()=> Linking.openURL('https://www.yummly.com/recipe/Dark-Chocolate-Mousse-1507616') } >Mousse
           </Text>
       </View>
